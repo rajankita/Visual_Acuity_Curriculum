@@ -1,0 +1,15 @@
+dataset: 'cifar10'
+net_type: 'resnet'
+depth: 20
+data_dir: '../data'
+corrupted_data_dir: '/home/ankita/scratch/Datasets/CIFAR-10-C'
+
+batch_size: 128
+lr: 0.1
+epochs: 200
+print_freq: 200
+
+alpha_init: 0
+sigma_max: 2
+blur_decay_rate: 0.08
+expname: ''

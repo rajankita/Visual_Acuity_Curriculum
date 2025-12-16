@@ -1,0 +1,16 @@
+dataset: 'cifar10'
+net_type: 'preactresnet18'
+model_width: 64
+data_dir: 'data'
+corrupted_data_dir: 'data/CIFAR-10-C'
+
+batch_size: 128
+lr: 0.1
+print_freq: 200
+weight_decay: 0.0005
+
+sigmas: [2, 0]
+epochs: [0, 200]
+probs: [0.2, 0.8]
+expname: 'runs/cifar10/preactresnet18/constant_blur=0.2'
+

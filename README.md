@@ -9,7 +9,7 @@ This repository contains the official implementation of the paper accepted at **
 
 
 <p align="center">
-   <img width="800" alt="image" src="imgs/method_diagram_cats.png">
+   <img width="800" alt="image" src="imgs/method_diagram.jpg">
 </p>
 
 ## Abstract

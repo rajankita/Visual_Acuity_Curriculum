@@ -3,7 +3,7 @@
 This repository contains the official implementation of the paper accepted at **ICVGIP 2025**.
 
 <p align="left">
-   📖 <a href="https://arxiv.org/" target="_blank">Paper</a>
+   📖 <a href="https://arxiv.org/pdf/2512.14360" target="_blank">Paper</a>
    ▶️ <a href="https://www.youtube.com/watch?v=Xq7oARw1LEI" target="_blank">Short Video</a>
 </p>
 
@@ -68,18 +68,17 @@ python test_adversarial.py --net_type preactresnet18 --dataset cifar10 --pretrai
 
 ## Citation
 If you find this work useful, please cite us:
-<!-- 
 ```bibtex
-@misc{kim2024demonstrationadaptivecollaborationlarge,
+@misc{raj2025mimickinghumanvisualdevelopment,
       title={Mimicking Human Visual Development for Learning Robust Image Representations}, 
-      author={Yubin Kim and Chanwoo Park and Hyewon Jeong and Cristina Grau-Vilchez and Yik Siu Chan and Xuhai Xu and Daniel McDuff and Hyeonhoon Lee and Marzyeh Ghassemi and Cynthia Breazeal and Hae Won Park},
-      year={2024},
-      eprint={2411.00248},
+      author={Ankita Raj and Kaashika Prajaapat and Tapan Kumar Gandhi and Chetan Arora},
+      year={2025},
+      eprint={2512.14360},
       archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2411.00248}, 
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.14360}, 
 }
-``` -->
+```
 
 ## Contact
 Ankita Raj (ankita.raj@cse.iitd.ac.in)
@@ -88,3 +87,4 @@ Ankita Raj (ankita.raj@cse.iitd.ac.in)
 Our implementation is based on the following repositories:
 - [PyTorch ImageNet Example](https://github.com/pytorch/examples/tree/master/imagenet)
 - [CutMix-PyTorch](https://github.com/clovaai/CutMix-PyTorch)
+
